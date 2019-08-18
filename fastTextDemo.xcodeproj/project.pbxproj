@@ -13,6 +13,18 @@
 		F3B632032309950000157C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B632022309950000157C2A /* Assets.xcassets */; };
 		F3B632062309950000157C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B632042309950000157C2A /* LaunchScreen.storyboard */; };
 		F3B632092309950000157C2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B632082309950000157C2A /* main.m */; };
+		F3B6322A2309956000157C2A /* dictionary.cc in Sources */ = {isa = PBXBuildFile; fileRef = F3B632102309956000157C2A /* dictionary.cc */; };
+		F3B6322C2309956000157C2A /* fasttext.cc in Sources */ = {isa = PBXBuildFile; fileRef = F3B632142309956000157C2A /* fasttext.cc */; };
+		F3B6322D2309956000157C2A /* utils.cc in Sources */ = {isa = PBXBuildFile; fileRef = F3B632152309956000157C2A /* utils.cc */; };
+		F3B6322E2309956000157C2A /* model.cc in Sources */ = {isa = PBXBuildFile; fileRef = F3B632162309956000157C2A /* model.cc */; };
+		F3B6322F2309956000157C2A /* loss.cc in Sources */ = {isa = PBXBuildFile; fileRef = F3B632172309956000157C2A /* loss.cc */; };
+		F3B632302309956000157C2A /* productquantizer.cc in Sources */ = {isa = PBXBuildFile; fileRef = F3B632182309956000157C2A /* productquantizer.cc */; };
+		F3B632312309956000157C2A /* args.cc in Sources */ = {isa = PBXBuildFile; fileRef = F3B6321A2309956000157C2A /* args.cc */; };
+		F3B632322309956000157C2A /* quantmatrix.cc in Sources */ = {isa = PBXBuildFile; fileRef = F3B632212309956000157C2A /* quantmatrix.cc */; };
+		F3B632332309956000157C2A /* matrix.cc in Sources */ = {isa = PBXBuildFile; fileRef = F3B632232309956000157C2A /* matrix.cc */; };
+		F3B632342309956000157C2A /* meter.cc in Sources */ = {isa = PBXBuildFile; fileRef = F3B632262309956000157C2A /* meter.cc */; };
+		F3B632352309956000157C2A /* vector.cc in Sources */ = {isa = PBXBuildFile; fileRef = F3B632272309956000157C2A /* vector.cc */; };
+		F3B632362309956000157C2A /* densematrix.cc in Sources */ = {isa = PBXBuildFile; fileRef = F3B632292309956000157C2A /* densematrix.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,32 @@
 		F3B632052309950000157C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3B632072309950000157C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3B632082309950000157C2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3B632102309956000157C2A /* dictionary.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dictionary.cc; sourceTree = "<group>"; };
+		F3B632112309956000157C2A /* main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		F3B632122309956000157C2A /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		F3B632132309956000157C2A /* quantmatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quantmatrix.h; sourceTree = "<group>"; };
+		F3B632142309956000157C2A /* fasttext.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fasttext.cc; sourceTree = "<group>"; };
+		F3B632152309956000157C2A /* utils.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cc; sourceTree = "<group>"; };
+		F3B632162309956000157C2A /* model.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model.cc; sourceTree = "<group>"; };
+		F3B632172309956000157C2A /* loss.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loss.cc; sourceTree = "<group>"; };
+		F3B632182309956000157C2A /* productquantizer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = productquantizer.cc; sourceTree = "<group>"; };
+		F3B632192309956000157C2A /* densematrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = densematrix.h; sourceTree = "<group>"; };
+		F3B6321A2309956000157C2A /* args.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = args.cc; sourceTree = "<group>"; };
+		F3B6321B2309956000157C2A /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		F3B6321C2309956000157C2A /* productquantizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = productquantizer.h; sourceTree = "<group>"; };
+		F3B6321D2309956000157C2A /* meter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = meter.h; sourceTree = "<group>"; };
+		F3B6321E2309956000157C2A /* real.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = real.h; sourceTree = "<group>"; };
+		F3B6321F2309956000157C2A /* args.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = args.h; sourceTree = "<group>"; };
+		F3B632202309956000157C2A /* dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dictionary.h; sourceTree = "<group>"; };
+		F3B632212309956000157C2A /* quantmatrix.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quantmatrix.cc; sourceTree = "<group>"; };
+		F3B632222309956000157C2A /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
+		F3B632232309956000157C2A /* matrix.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matrix.cc; sourceTree = "<group>"; };
+		F3B632242309956000157C2A /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		F3B632252309956000157C2A /* fasttext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fasttext.h; sourceTree = "<group>"; };
+		F3B632262309956000157C2A /* meter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = meter.cc; sourceTree = "<group>"; };
+		F3B632272309956000157C2A /* vector.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vector.cc; sourceTree = "<group>"; };
+		F3B632282309956000157C2A /* loss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loss.h; sourceTree = "<group>"; };
+		F3B632292309956000157C2A /* densematrix.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = densematrix.cc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +96,7 @@
 		F3B631F8230994FF00157C2A /* fastTextDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F3B6320F2309956000157C2A /* fastText */,
 				F3B631F9230994FF00157C2A /* AppDelegate.h */,
 				F3B631FA230994FF00157C2A /* AppDelegate.m */,
 				F3B631FC230994FF00157C2A /* ViewController.h */,
@@ -69,6 +108,39 @@
 				F3B632082309950000157C2A /* main.m */,
 			);
 			path = fastTextDemo;
+			sourceTree = "<group>";
+		};
+		F3B6320F2309956000157C2A /* fastText */ = {
+			isa = PBXGroup;
+			children = (
+				F3B632102309956000157C2A /* dictionary.cc */,
+				F3B632112309956000157C2A /* main.cc */,
+				F3B632122309956000157C2A /* utils.h */,
+				F3B632132309956000157C2A /* quantmatrix.h */,
+				F3B632142309956000157C2A /* fasttext.cc */,
+				F3B632152309956000157C2A /* utils.cc */,
+				F3B632162309956000157C2A /* model.cc */,
+				F3B632172309956000157C2A /* loss.cc */,
+				F3B632182309956000157C2A /* productquantizer.cc */,
+				F3B632192309956000157C2A /* densematrix.h */,
+				F3B6321A2309956000157C2A /* args.cc */,
+				F3B6321B2309956000157C2A /* matrix.h */,
+				F3B6321C2309956000157C2A /* productquantizer.h */,
+				F3B6321D2309956000157C2A /* meter.h */,
+				F3B6321E2309956000157C2A /* real.h */,
+				F3B6321F2309956000157C2A /* args.h */,
+				F3B632202309956000157C2A /* dictionary.h */,
+				F3B632212309956000157C2A /* quantmatrix.cc */,
+				F3B632222309956000157C2A /* model.h */,
+				F3B632232309956000157C2A /* matrix.cc */,
+				F3B632242309956000157C2A /* vector.h */,
+				F3B632252309956000157C2A /* fasttext.h */,
+				F3B632262309956000157C2A /* meter.cc */,
+				F3B632272309956000157C2A /* vector.cc */,
+				F3B632282309956000157C2A /* loss.h */,
+				F3B632292309956000157C2A /* densematrix.cc */,
+			);
+			path = fastText;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +213,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B632332309956000157C2A /* matrix.cc in Sources */,
+				F3B632322309956000157C2A /* quantmatrix.cc in Sources */,
+				F3B632312309956000157C2A /* args.cc in Sources */,
+				F3B6322C2309956000157C2A /* fasttext.cc in Sources */,
 				F3B631FE230994FF00157C2A /* ViewController.m in Sources */,
 				F3B632092309950000157C2A /* main.m in Sources */,
+				F3B632362309956000157C2A /* densematrix.cc in Sources */,
+				F3B6322F2309956000157C2A /* loss.cc in Sources */,
 				F3B631FB230994FF00157C2A /* AppDelegate.m in Sources */,
+				F3B6322A2309956000157C2A /* dictionary.cc in Sources */,
+				F3B632342309956000157C2A /* meter.cc in Sources */,
+				F3B632352309956000157C2A /* vector.cc in Sources */,
+				F3B6322E2309956000157C2A /* model.cc in Sources */,
+				F3B632302309956000157C2A /* productquantizer.cc in Sources */,
+				F3B6322D2309956000157C2A /* utils.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
