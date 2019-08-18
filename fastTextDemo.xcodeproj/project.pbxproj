@@ -25,6 +25,7 @@
 		F3B632342309956000157C2A /* meter.cc in Sources */ = {isa = PBXBuildFile; fileRef = F3B632262309956000157C2A /* meter.cc */; };
 		F3B632352309956000157C2A /* vector.cc in Sources */ = {isa = PBXBuildFile; fileRef = F3B632272309956000157C2A /* vector.cc */; };
 		F3B632362309956000157C2A /* densematrix.cc in Sources */ = {isa = PBXBuildFile; fileRef = F3B632292309956000157C2A /* densematrix.cc */; };
+		F3B6323923099F1200157C2A /* dbpedia.train in Resources */ = {isa = PBXBuildFile; fileRef = F3B6323823099F1200157C2A /* dbpedia.train */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +33,7 @@
 		F3B631F9230994FF00157C2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F3B631FA230994FF00157C2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F3B631FC230994FF00157C2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F3B631FD230994FF00157C2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3B631FD230994FF00157C2A /* ViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = ViewController.m; sourceTree = "<group>"; };
 		F3B63200230994FF00157C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3B632022309950000157C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3B632052309950000157C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,6 +65,8 @@
 		F3B632272309956000157C2A /* vector.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vector.cc; sourceTree = "<group>"; };
 		F3B632282309956000157C2A /* loss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loss.h; sourceTree = "<group>"; };
 		F3B632292309956000157C2A /* densematrix.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = densematrix.cc; sourceTree = "<group>"; };
+		F3B6323823099F1200157C2A /* dbpedia.train */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dbpedia.train; sourceTree = "<group>"; };
+		F3B6323A23099F4600157C2A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,7 @@
 		F3B631F8230994FF00157C2A /* fastTextDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F3B6323723099EDC00157C2A /* data */,
 				F3B6320F2309956000157C2A /* fastText */,
 				F3B631F9230994FF00157C2A /* AppDelegate.h */,
 				F3B631FA230994FF00157C2A /* AppDelegate.m */,
@@ -141,6 +145,15 @@
 				F3B632292309956000157C2A /* densematrix.cc */,
 			);
 			path = fastText;
+			sourceTree = "<group>";
+		};
+		F3B6323723099EDC00157C2A /* data */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6323A23099F4600157C2A /* README.md */,
+				F3B6323823099F1200157C2A /* dbpedia.train */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +215,7 @@
 			files = (
 				F3B632062309950000157C2A /* LaunchScreen.storyboard in Resources */,
 				F3B632032309950000157C2A /* Assets.xcassets in Resources */,
+				F3B6323923099F1200157C2A /* dbpedia.train in Resources */,
 				F3B63201230994FF00157C2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
