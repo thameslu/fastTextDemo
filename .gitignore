@@ -1,0 +1,12 @@
+
+#==============================================================================#
+# This file specifies intentionally untracked files that git should ignore.
+#==============================================================================#
+
+# Xcode noise
+build/
+xcuserdata/
+project.xcworkspace
+
+# OSX noise
+.DS_Store
