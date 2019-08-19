@@ -1,4 +1,4 @@
-#fastText
+# fastText
 
 > [fastText](https://github.com/facebookresearch/fastText)是一个高效的学习词向量和句子分类的机器学习库。
 
@@ -10,7 +10,7 @@
 
 
 
-##编译
+## 编译
 
 编译分为以下几个步骤：
 
